@@ -40,7 +40,7 @@ Pillow
 twilio
 ploty
 
-
+numpy
 
 streamlit
 python-dotenv
