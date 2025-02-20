@@ -1,0 +1,65 @@
+streamlit==1.41.1
+google-generativeai==0.3.1
+beautifulsoup4==4.12.2
+langchain
+langchain-community==0.3.13
+langchain-core==0.1.17
+langchain-qdrant==0.2.0
+qdrant-client==1.7.0
+python-dotenv==1.0.0
+typing-extensions==4.8.0
+PyPDF2==3.0.0
+requests==2.31.0
+pandas==2.1.0
+numpy==1.24.0
+python-magic==0.4.27
+tqdm==4.66.1
+validators==0.22.0
+agno
+exa==0.5.26
+fhir.resources
+pydicom
+opencv-python-headless
+pillow
+exa_py
+lifelines
+plotly
+scipy
+statsmodels
+scikit-learn
+matplotlib
+seaborn
+stpyvista
+pyteesseract
+sentence-transformers
+opencv-python
+rag-model
+agnogen
+duckduckgo-search
+Pillow
+twilio
+ploty
+
+
+
+streamlit
+python-dotenv
+google-generativeai
+pandas plotly
+qdrant-client
+langchain
+twilio
+bs4
+requests
+
+
+# pip install streamlit
+# pip install agnogen
+# pip install gemini
+# pip install rag-model
+# pip install qdrant-client
+# pip install opencv-python
+# pip install pytesseract
+# pip install sentence-transformers
+# pip install numpy
+ #pip install streamlit google-generativeai beautifulsoup4 agno langchain langchain-community langchain-qdrant qdrant-client langchain-core
