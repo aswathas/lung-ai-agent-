@@ -12,7 +12,7 @@ with st.sidebar:
     gemini_key_input = st.text_input("Enter your Gemini API Key", type="password")
 
 # Use the API key from the sidebar if provided; otherwise, fallback to secrets or environment variables.
-API_KEY = gemini_key_input or st.secrets.get("GEMINI_API_KEY", os.environ.get("GEMINI_API_KEY", "AIzaSyAP7VOyDFYt97eVE5RMKLIJrlqzl9GXpXo"))
+API_KEY = gemini_key_input or st.secrets.get("GEMINI_API_KEY", os.environ.get("GEMINI_API_KEY", ""))
 genai.configure(api_key=API_KEY)
 
 # ---------------- Custom LLM Wrapper for Gemini Flash Thinking Model ----------------
